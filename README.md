@@ -6,7 +6,7 @@
 ![Licencia](https://img.shields.io/github/license/albertps58/legion-del-mal)
 
 # 🦹‍♂️ La Legión del Mal- Desde aqui
-Hola
+Hola que tal que pasa
 > _"El mundo no se conquista con fuerza bruta, se conquista con un buen plan y control de versiones."_
 > — Lex Luthor, fundador
 
