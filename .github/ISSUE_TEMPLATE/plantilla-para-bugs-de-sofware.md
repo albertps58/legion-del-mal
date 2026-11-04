@@ -2,7 +2,7 @@
 name: Plantilla para bugs de sofware
 about: Ayúdanos a mejorar
 title: 'Bug: '
-labels: bug, enhancement
+labels: bug, enhancement, mejora de software
 assignees: albertps58
 
 ---
