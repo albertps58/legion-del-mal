@@ -11,15 +11,15 @@ on:
             - Lex Luthor
             - Magneto
             - Joker
-      mensaje:
+      prioridad:
           description: "Que villano envia el mensaje?"
           required: true
           type: choice
           options:
-            - Lex Luthor
-            - Magneto
-            - Joker
-      prioridad:
+            - Baja
+            - Alta
+            - Critica
+      mensaje:
           description: "Nivel de prioridad"
           required: true
           default: "La misión fue un éxito"
