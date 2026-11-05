@@ -17,3 +17,18 @@ jobs:
                 echo "Fecha de inicio: $(date)"
                 echo "Nombre clave: ${{github.actor}}"
                 echo "Contexto: ${{github.repository}}"
+
+            - name: Capacidades del agente
+              run: |
+                    echo "Capacidades del agente:"
+                    echo "Sistema operativo: $(uname -s)"
+                    echo "Habilidades tecnicas"
+                    node --version
+                    python3 --version
+                    git --version
+
+            - name: Reconocimiento del terreno
+              run: |
+                    echo "Reconocimiento del terreno:"
+                    ls /
+                    
