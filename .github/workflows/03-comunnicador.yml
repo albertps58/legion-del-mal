@@ -12,7 +12,7 @@ on:
             - Magneto
             - Joker
       prioridad:
-          description: "Que villano envia el mensaje?"
+          description: "Nivel prioridad"
           required: true
           type: choice
           options:
@@ -20,7 +20,7 @@ on:
             - Alta
             - Critica
       mensaje:
-          description: "Nivel de prioridad"
+          description: "Que villano envia el mensaje?"
           required: true
           default: "La misión fue un éxito"
             
