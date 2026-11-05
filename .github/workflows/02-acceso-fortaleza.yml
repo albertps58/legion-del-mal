@@ -3,8 +3,6 @@ name: 🛡️ Acceso a la Fortaleza Prohibida
 on: 
     workflow_dispatch: 
     
-
-
 jobs:
     accesso-a-la-fortaleza:
         runs-on: ubuntu-latest
