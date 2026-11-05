@@ -29,4 +29,11 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@v4
+      - name: Imprimir  inputs
+        run: |
+            echo "Inputs:"
+            echo ""
+            echo "Villano: ${{inputs.villano}}"
+            echo "Villano: ${{inputs.prioridad}}"
+            echo "Villano: ${{inputs.mensaje}}"
+
