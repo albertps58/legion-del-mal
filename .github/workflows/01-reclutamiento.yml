@@ -8,3 +8,12 @@ jobs:
         steps:
             - name: El agente se presenta
               run: echo "Hola, soy un agente de reclutamiento y estoy listo para ayudar."
+            - name: Reporte de identificación 
+              run: |
+                echo "Reporte de identificación del agente:"
+                echo "Nombre: Agente de Reclutamiento"
+                echo "ID: 001"
+                echo "Estado: Activo"
+                echo "Fecha de inicio: $(date)"
+                echo "Nombre clave: ${{github.actor}}"
+                echo "Contexto: ${{github.repository}}"
