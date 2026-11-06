@@ -23,6 +23,15 @@ on:
           description: "Que villano envia el mensaje?"
           required: true
           default: "La misión fue un éxito"
+      
+      cow-caracter:
+          description: "Que caracter quieres?"
+          required: true
+          type: choice
+          options:
+            - banana
+            - dragon
+            - sheep
             
 jobs:
   transmitir-mensaje:
@@ -40,5 +49,5 @@ jobs:
             echo "De: ${{inputs.villano}}"
             echo "Fecha: $(date -u +"%d/%m/%Y - %H:%M UTC")"
             echo "-------Mensaje--------"
-            cowsay -f eyes "${{inputs.mensaje}}"
+            cowsay -f "${{inputs.cow-caracter}}" "${{inputs.mensaje}}"
 
